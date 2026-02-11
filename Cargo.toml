@@ -3,7 +3,16 @@ name = "rs-img2sz-wasm"
 version = "0.1.0"
 edition = "2024"
 
+description = "WebAssembly bindings to guess image width/height"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-img2sz-wasm"
+homepage = "https://github.com/takanoriyanagitani/rs-img2sz-wasm"
+documentation = "https://docs.rs/rs-img2sz-wasm/latest"
+keywords = ["image", "size", "wasm"]
+
 exclude = [
+    "opt.wasm",
+    "rs_img2sz_wasm.wasm",
 ]
 
 [lib]
